@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/health', (req, res) => {
-    res.json({ status: 'broken', timestamp: new Date().toISOString() });
+    res.json({ status: 'broken2', timestamp: new Date().toISOString() });
 });
 
 app.get('/', (req, res) => {
